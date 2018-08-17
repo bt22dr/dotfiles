@@ -87,6 +87,7 @@ map <C-m> :lprevious<CR>
 " Plug (설치는 vim에서 :PlugInstall 실행)
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --gocode-completer' }
 Plug 'ctrlpvim/ctrlp.vim'       "Ctrl + P for search file
 Plug 'vim-syntastic/syntastic'
 Plug 'scrooloose/nerdtree'
