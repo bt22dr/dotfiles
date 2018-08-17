@@ -84,7 +84,7 @@ map <C-m> :lprevious<CR>
 "      Plugins      "
 """""""""""""""""""""
 
-" Plug
+" Plug (설치는 vim에서 :PlugInstall 실행)
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'ctrlpvim/ctrlp.vim'       "Ctrl + P for search file
